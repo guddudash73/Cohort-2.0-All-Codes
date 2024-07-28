@@ -1,0 +1,15 @@
+#buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  width: 500px;
+  border-radius: 7px;
+}
+
+span {
+  padding: 0 5px 0 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 7px;
+}

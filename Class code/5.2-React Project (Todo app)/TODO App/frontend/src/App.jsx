@@ -11,7 +11,7 @@ function App() {
   // This approach tend to fetch multiple times
   fetch("http://localhost:3000/todos")
     .then( async function(res) {
-      const jsonData = await res.json();
+     await res.json.toString();
       // console.log(jsonData);
       setTodos(jsonData.allTodos)
     })
